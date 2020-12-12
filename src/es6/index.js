@@ -1,3 +1,4 @@
+//Jun 2015
 //Default Parameters ---------------------------
 function sayHello(message = 'Hello'){
   var test = 'test';
@@ -117,7 +118,7 @@ import hello from './module.js';
 hello();
 
 
-//Generators ----------------------------------
+//Generators ------------------------------------
 function* helloWorld() {
   const parts = ['Hello', 'World'];
   for (const iterator of parts) {
